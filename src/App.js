@@ -9,8 +9,8 @@ function App() {
   return (
     <>
     <Header />
-    <div className="background">
-      <Container>
+    <div>
+      <Container className="full-space">
         <h2>About Me</h2>
         <div>
           <Row>

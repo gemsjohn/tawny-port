@@ -1,3 +1,4 @@
+import { Footer } from '../footer';
 import { Header } from '../header';
 export default function Resume() {
     return (
@@ -5,7 +6,8 @@ export default function Resume() {
       <Header />
       <div className="App">
         <h2>Resume</h2>
-    </div>
+      </div>
+      <Footer />
       </>
     );
   }

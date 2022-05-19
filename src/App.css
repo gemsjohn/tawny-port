@@ -38,6 +38,9 @@
     transform: rotate(360deg);
   }
 }
+.full-space {
+  height: 100%;
+}
 
 .Row-space {
   padding: 5px 0px 5px 0px;
@@ -56,19 +59,14 @@
   opacity: 100%;
 }
 
-.background {
-  background-color: #282c34;
-  position: absolute; 
-  top: 50px; 
-  left: 0; 
-  right: 0; 
+.footer {
+  position: fixed;
   bottom: 0; 
+  width: 100%;
   margin: auto; 
+  background-color: #282c34;
 }
 
-.footer {
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
+.footer-center {
+  padding: 50%;
 }
