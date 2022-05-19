@@ -1,5 +1,6 @@
 .App {
   text-align: left;
+  margin: 10px 0px 0px 0px;
 }
 
 .App-logo {
@@ -57,6 +58,10 @@
 }
 .icon:hover {
   opacity: 100%;
+}
+
+.supplemental-space {
+  height: 100px;
 }
 
 .footer {

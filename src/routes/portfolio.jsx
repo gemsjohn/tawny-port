@@ -3,6 +3,9 @@ import { Header } from '../header';
 import bm_dept from '../assets/cli.png';
 import sn_disco from '../assets/disco.png'; 
 import ecom_shop from '../assets/shop-lyft.png';
+import splotch from '../assets/splotch.png';
+import wol from '../assets/wol.png';
+import employee from '../assets/employee.png';
 import placeholder from '../assets/placeholder.jpg';
 import { Footer } from '../footer';
 export default function Portfolio() {
@@ -66,46 +69,52 @@ export default function Portfolio() {
           <Row className="Row-space">
             <Col>
               <Card style={{ width: '24rem' }}>
-                <Card.Img variant="top" src={placeholder} />
+                <Card.Img variant="top" src={splotch} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Non-fungible Token Project</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                  Splotch is an adventure into the unknown, an opportunity to experiment 
+                  with Stacks smart contracts and also share artistic expression.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button href="https://www.splotchnft.com/">Splotch NFT</Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
             <Card style={{ width: '24rem' }}>
-                <Card.Img variant="top" src={placeholder} />
+                <Card.Img variant="top" src={wol} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Walks of Love</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                  The Walks of Love is a full-stack website that matches pet owners with 
+                  freelance pet care specialists looking for new friends to care about. 
+                  It allows pet owners to post opportunities to care for their pets when 
+                  they are unable to and allows potential pet caregivers to accept those opportunities.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button href="https://github.com/gemsjohn/walks-of-love-frontend">Walks of Love</Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
             <Card style={{ width: '24rem' }}>
-                <Card.Img variant="top" src={placeholder} />
+                <Card.Img variant="top" src={employee} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Employee Profile</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                  As a manager I wanted to generate a webpage that displays my team's basic info 
+                  so that I have quick access to their Emails and Github Profiles. The web application 
+                  uses inquirer.js to query the Manager which allows them to build out their team. 
+                  Once the query is complete an index.html file is produced allowing the user to open 
+                  this file in live server for viewing.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button href="https://github.com/gemsjohn/employee-profile">Team Profile Generator</Button>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
         </div>
       </Container>
+      <div className="supplemental-space"></div>
       <Footer />
       </>
     );
