@@ -14,26 +14,26 @@ export default function Portfolio() {
       <Header />
       <Container>
         <div className="App">
-          <h2>Portfolio</h2>
+          <h3 className="extra-spacing">Portfolio</h3>
           {/* ROW #1 */}
           <Row className="Row-space">
             <Col>
-              <Card style={{ width: '24rem' }}>
+              <Card style={{ width: '24rem' }} class="card h-100">
                 <Card.Img variant="top" src={bm_dept} className="photo" />
                 <Card.Body>
-                  <Card.Title>Business Manager</Card.Title>
-                  <Card.Text>
-                    As a business owner I wanted to be able to view and manage the departments, 
-                    roles, and employees in my company so that I could organize and plan my business. 
-                    The tool that I have produced is a command line interface that serves as a 
-                    content management system.
-                  </Card.Text>
-                  <Button variant="primary" href="https://github.com/gemsjohn/business-manager">Business Manager</Button>
+                    <Card.Title>Business Manager</Card.Title>
+                    <Card.Text>
+                      As a business owner I wanted to be able to view and manage the departments, 
+                      roles, and employees in my company so that I could organize and plan my business. 
+                      The tool that I have produced is a command line interface that serves as a 
+                      content management system.
+                    </Card.Text>
+                    <Button variant="primary" href="https://github.com/gemsjohn/business-manager">Business Manager</Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }}>
+            <Card style={{ width: '24rem' }} class="card h-100">
                 <Card.Img variant="top" src={sn_disco} />
                 <Card.Body>
                   <Card.Title>Social Network API</Card.Title>
@@ -50,7 +50,7 @@ export default function Portfolio() {
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }}>
+            <Card style={{ width: '24rem' }} class="card h-100">
                 <Card.Img variant="top" src={ecom_shop} />
                 <Card.Body>
                   <Card.Title>E-Commerce Back End</Card.Title>
@@ -68,7 +68,7 @@ export default function Portfolio() {
           {/* ROW #2 */}
           <Row className="Row-space">
             <Col>
-              <Card style={{ width: '24rem' }}>
+              <Card style={{ width: '24rem' }} class="card h-100">
                 <Card.Img variant="top" src={splotch} />
                 <Card.Body>
                   <Card.Title>Non-fungible Token Project</Card.Title>
@@ -81,7 +81,7 @@ export default function Portfolio() {
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }}>
+            <Card style={{ width: '24rem' }} class="card h-100">
                 <Card.Img variant="top" src={wol} />
                 <Card.Body>
                   <Card.Title>Walks of Love</Card.Title>
@@ -96,7 +96,7 @@ export default function Portfolio() {
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }}>
+            <Card style={{ width: '24rem' }} class="card h-100">
                 <Card.Img variant="top" src={employee} />
                 <Card.Body>
                   <Card.Title>Employee Profile</Card.Title>

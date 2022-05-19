@@ -27,6 +27,7 @@ export default function Contact() {
       <Header />
       <Container>
       <div className="App">
+        <h3 className="extra-spacing">Contact Me!</h3>
       <Formik
       validationSchema={schema}
       initialValues={{

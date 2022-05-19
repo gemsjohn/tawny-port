@@ -11,7 +11,7 @@ function App() {
     <Header />
     <div>
       <Container className="full-space">
-        <h2>About Me</h2>
+        <h3 className="extra-spacing">About Me</h3>
         <div>
           <Row>
             <Col>

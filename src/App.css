@@ -15,20 +15,33 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 20vh;
+  font-family: 'Alata', sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 10%, rgba(40,44,52,1) 100%);
+}
+.App-header-nav {
+  font-size: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin: 10px 100px 10px 0px;
+  
+}
+.App-header-brand {
+  font-size: 35px;
+  margin: 0px 0px 0px 100px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  opacity: 90%;
   text-decoration: none;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 10px 0px 10px;
+}
+
+.App-link:hover {
+  color: white;
+  opacity: 100%;
 }
 
 @keyframes App-logo-spin {
@@ -39,6 +52,11 @@
     transform: rotate(360deg);
   }
 }
+.card-content {
+  position: absolute; 
+  bottom: 0;
+}
+
 .full-space {
   height: 100%;
 }
@@ -64,12 +82,17 @@
   height: 100px;
 }
 
+.extra-spacing {
+  margin: 20px 0px 20px 0px;
+}
+
 .footer {
   position: fixed;
   bottom: 0; 
   width: 100%;
   margin: auto; 
-  background-color: #282c34;
+  background: rgb(40,44,52);
+  background: linear-gradient(180deg, rgba(40,44,52,1) 0%, rgba(0,0,0,1) 90%, rgba(2,0,36,1) 100%);
 }
 
 .footer-center {
