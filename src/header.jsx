@@ -8,11 +8,11 @@ export const Header = () => {
             <Navbar bg="dark" variant="dark">
                 <Container>
                 <Navbar.Brand href="#about">John Martin</Navbar.Brand>
-                <Nav className="me-auto">
-                <Link to="/">About Me</Link> | {" "}
-                <Link to="/portfolio">Portfolio</Link> | {" "}
-                <Link to="/Contact">Contact</Link> | {" "}
-                <Link to="/Resume">Resume</Link> | {" "}
+                <Nav>
+                <Link to="/" className="App-link">About Me</Link> | {" "}
+                <Link to="/portfolio" className="App-link">Portfolio</Link> | {" "}
+                <Link to="/Contact" className="App-link">Contact</Link> | {" "}
+                <Link to="/Resume" className="App-link">Resume</Link> | {" "}
                 </Nav>
                 </Container>
             </Navbar>
