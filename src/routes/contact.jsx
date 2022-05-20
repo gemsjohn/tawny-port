@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="backdrop">
         <Header />
         <Container>
-          <div className="App">
+          <div className="App extra-spacing">
           <Card style={styles.card}>
             <Card.Header as="h5" style={styles.card}>Contact Me!</Card.Header>
             <Card.Body>

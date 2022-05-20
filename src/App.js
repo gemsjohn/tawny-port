@@ -1,19 +1,26 @@
 import './App.css';
-import { Container } from 'react-bootstrap';
+import { Container, Card, Button } from 'react-bootstrap';
 import photo from './assets/favicon.png';
 import { Header } from './header';
 import { Footer } from './footer';
 
 
 function App() {
+  const styles = {
+    card: {
+      backgroundColor: '#b7e0f2a9',
+      borderRadius: 25,
+      padding: '1rem'
+    }
+  }
   return (
     <>
-      
       <div className="backdrop">
         <Header />
         <Container>
-          <h3 className="extra-spacing">About Me</h3>
-          <div>
+        <Card className="extra-spacing" style={styles.card}>
+          <Card.Header as="h5" style={styles.card}>About Me</Card.Header>
+          <Card.Body>
             <img src={photo} className="profile" alt="" />
             <h5> 
               I'm a hobbiest developer born and raised in North Carolina. I currently work at WCG VeraSci where our company has produced a Browser, Tablet, and Phone
@@ -24,7 +31,9 @@ function App() {
               On a personal level I enjoy restoring old Rally Cars or anything rare. Love spending time with my Wife, Dogs, and Cat. I'll try anything at least once and therefore
               enjoy checking out new restaurants.  
             </h5>
-          </div>
+
+          </Card.Body>
+        </Card>
         </Container>
         <Footer />
       </div>
