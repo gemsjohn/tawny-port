@@ -3,6 +3,7 @@ import { Container, Col, Row, Card, Button } from 'react-bootstrap';
 import { Footer } from '../footer';
 import { Header } from '../header';
 import resume from '../assets/CV_JM.pdf';
+import photo from '../assets/pdf_icon.png';
 
 class DownloadLink extends React.Component {
   render() {
@@ -26,7 +27,7 @@ export default function Resume() {
       <div className="App">
         <Container className="full-space">
           <div>
-            <h3 className="extra-spacing">Download <DownloadLink src={resume}>Resume</DownloadLink></h3>
+            <h3 className="extra-spacing"><img src={photo} className="pdf-icon" alt="" />Download <DownloadLink src={resume}>Resume</DownloadLink></h3>
           </div>
           <Row>
             <Col>

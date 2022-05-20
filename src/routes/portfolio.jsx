@@ -6,7 +6,7 @@ import sn_disco from '../assets/disco.png';
 import ecom_shop from '../assets/shop-lyft.png';
 import splotch from '../assets/splotch.png';
 import wol from '../assets/wol.png';
-import employee from '../assets/employee.png';
+import employee from '../assets/employee.jpg';
 import { Footer } from '../footer';
 
 const styles = {
@@ -22,7 +22,6 @@ const styles = {
     height: '300px',
     padding: '10px',
     margin: 'auto',
-    borderRadius: 25,
     opacity: '80%'
   }
 }
@@ -42,7 +41,7 @@ export default function Portfolio() {
           {/* ROW #1 */}
           <Row className="Row-space">
             <Col>
-              <Card style={{ width: '24rem' }} class="card h-100" style={styles.card}>
+              <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={bm_dept} className="photo" style={styles.cardImage} />
                 <Card.Body>
                     <Card.Title>Business Manager</Card.Title>
@@ -69,7 +68,7 @@ export default function Portfolio() {
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }} class="card h-100" style={styles.card}>
+            <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={sn_disco} style={styles.cardImage} />
                 <Card.Body>
                   <Card.Title>Social Network API</Card.Title>
@@ -97,7 +96,7 @@ export default function Portfolio() {
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }} class="card h-100" style={styles.card}>
+            <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={ecom_shop} style={styles.cardImage} />
                 <Card.Body>
                   <Card.Title>E-Commerce Back End</Card.Title>
@@ -127,7 +126,7 @@ export default function Portfolio() {
           {/* ROW #2 */}
           <Row className="Row-space">
             <Col>
-              <Card style={{ width: '24rem' }} class="card h-100" style={styles.card}>
+              <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={splotch} style={styles.cardImage} />
                 <Card.Body>
                   <Card.Title>Non-fungible Token Project</Card.Title>
@@ -152,7 +151,7 @@ export default function Portfolio() {
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }} class="card h-100" style={styles.card}>
+            <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={wol} style={styles.cardImage} />
                 <Card.Body>
                   <Card.Title>Walks of Love</Card.Title>
@@ -179,7 +178,7 @@ export default function Portfolio() {
               </Card>
             </Col>
             <Col>
-            <Card style={{ width: '24rem' }} class="card h-100" style={styles.card} >
+            <Card class="card h-100" style={styles.card} >
                 <Card.Img variant="top" src={employee} style={styles.cardImage} />
                 <Card.Body>
                   <Card.Title>Employee Profile</Card.Title>
