@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <div className="header">
             <Navbar bg="dark" variant="dark" className="App-header">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <img
                         src={name}
                         width="50"
