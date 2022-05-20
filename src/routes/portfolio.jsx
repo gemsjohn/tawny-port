@@ -12,7 +12,7 @@ import { Footer } from '../footer';
 const styles = {
   card: {
     backgroundColor: '#B7E0F2',
-    borderRadius: 55,
+    borderRadius: 25,
     padding: '1rem'
   },
   cardImage: {
