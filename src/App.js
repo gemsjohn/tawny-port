@@ -1,5 +1,5 @@
 import './App.css';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import photo from './assets/favicon.png';
 import { Header } from './header';
 import { Footer } from './footer';
@@ -14,7 +14,7 @@ function App() {
         <Container className="full-space">
           <h3 className="extra-spacing">About Me</h3>
           <div>
-            <img src={photo} className="profile" alt="photo" />
+            <img src={photo} className="profile" alt="" />
             <h5> 
               I'm a hobiest developer born and raised in North Carolina. I currently work at WCG VeraSci where our company has produced a Browser, Tablet, and Phone
               based application called Pathway, which is designed to evaluate cognitive disorders. My role at the compnay is to Manage a Technology Quality Assurance Team 
