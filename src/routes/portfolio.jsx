@@ -11,7 +11,7 @@ import { Footer } from '../footer';
 
 const styles = {
   card: {
-    backgroundColor: '#B7E0F2',
+    backgroundColor: '#b7e0f2a9',
     borderRadius: 25,
     padding: '1rem'
   },
@@ -21,7 +21,9 @@ const styles = {
     width: '300px',
     height: '300px',
     padding: '10px',
-    margin: 'auto'
+    margin: 'auto',
+    borderRadius: 25,
+    opacity: '80%'
   }
 }
 export default function Portfolio() {
@@ -48,6 +50,7 @@ export default function Portfolio() {
                       onClick={() => setOpen_0(!open_0)}
                       aria-controls="example-collapse-text"
                       aria-expanded={open_0}
+                      className="card-button"
                     >
                       Description
                     </Button>
@@ -61,7 +64,7 @@ export default function Portfolio() {
                         </div>
                       </Collapse>
                     </Row>
-                    <Button variant="primary" href="https://github.com/gemsjohn/business-manager">Business Manager</Button>
+                    <Button href="https://github.com/gemsjohn/business-manager" className="card-button">Business Manager</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -74,6 +77,7 @@ export default function Portfolio() {
                       onClick={() => setOpen_1(!open_1)}
                       aria-controls="example-collapse-text"
                       aria-expanded={open_1}
+                      className="card-button"
                   >
                     Description
                   </Button>
@@ -88,7 +92,7 @@ export default function Portfolio() {
                         their thoughts, react to friends' thoughts, and create a friend list.                        </div>
                       </Collapse>
                   </Row>
-                  <Button variant="primary" href="https://github.com/gemsjohn/social-disco">Social Disco</Button>
+                  <Button href="https://github.com/gemsjohn/social-disco" className="card-button">Social Disco</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -101,6 +105,7 @@ export default function Portfolio() {
                       onClick={() => setOpen_2(!open_2)}
                       aria-controls="example-collapse-text"
                       aria-expanded={open_2}
+                      className="card-button"
                     >
                       Description
                     </Button>
@@ -114,7 +119,7 @@ export default function Portfolio() {
                         </div>
                       </Collapse>
                     </Row>
-                  <Button variant="primary" href="https://github.com/gemsjohn/shop-lyft">Shop Lyft</Button>
+                  <Button className="card-button" href="https://github.com/gemsjohn/shop-lyft">Shop Lyft</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -130,6 +135,7 @@ export default function Portfolio() {
                       onClick={() => setOpen_3(!open_3)}
                       aria-controls="example-collapse-text"
                       aria-expanded={open_3}
+                      className="card-button"
                     >
                       Description
                     </Button>
@@ -141,7 +147,7 @@ export default function Portfolio() {
                         </div>
                       </Collapse>
                     </Row>
-                  <Button href="https://www.splotchnft.com/">Splotch NFT</Button>
+                  <Button className="card-button" href="https://www.splotchnft.com/">Splotch NFT</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -154,6 +160,7 @@ export default function Portfolio() {
                       onClick={() => setOpen_4(!open_4)}
                       aria-controls="example-collapse-text"
                       aria-expanded={open_4}
+                      className="card-button"
                     >
                       Description
                     </Button>
@@ -167,7 +174,7 @@ export default function Portfolio() {
                         </div>
                       </Collapse>
                     </Row>
-                  <Button href="https://github.com/gemsjohn/walks-of-love-frontend">Walks of Love</Button>
+                  <Button className="card-button" href="https://github.com/gemsjohn/walks-of-love-frontend">Walks of Love</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -180,6 +187,7 @@ export default function Portfolio() {
                       onClick={() => setOpen_5(!open_5)}
                       aria-controls="example-collapse-text"
                       aria-expanded={open_5}
+                      className="card-button"
                     >
                       Description
                     </Button>
@@ -194,7 +202,7 @@ export default function Portfolio() {
                         </div>
                       </Collapse>
                     </Row>
-                  <Button href="https://github.com/gemsjohn/employee-profile">Team Profile Generator</Button>
+                  <Button className="card-button" href="https://github.com/gemsjohn/employee-profile">Team Profile Generator</Button>
                 </Card.Body>
               </Card>
             </Col>
