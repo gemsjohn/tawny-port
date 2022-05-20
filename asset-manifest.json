@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.6aa1bd24.css",
+    "main.js": "/react-gh-pages/static/js/main.b4caaaf8.js",
+    "static/media/wol.png": "/react-gh-pages/static/media/wol.b42322a973de951f6cde.png",
+    "static/media/disco.png": "/react-gh-pages/static/media/disco.d78c81b82a95a3fd3e38.png",
+    "static/media/CV_JM.pdf": "/react-gh-pages/static/media/CV_JM.c37b2edcdf2ea25bd317.pdf",
+    "static/media/splotch.png": "/react-gh-pages/static/media/splotch.24621d144e18ec909277.png",
+    "static/media/employee.png": "/react-gh-pages/static/media/employee.f7410bb4383619314a30.png",
+    "static/media/shop-lyft.png": "/react-gh-pages/static/media/shop-lyft.a87b524c2e6613d3b770.png",
+    "static/media/cli.png": "/react-gh-pages/static/media/cli.8feff42f530c3cf7496b.png",
+    "static/media/github.png": "/react-gh-pages/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/favicon.png": "/react-gh-pages/static/media/favicon.e86e322c4685fe1d7240.png",
+    "static/media/linkedin.png": "/react-gh-pages/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.6aa1bd24.css.map": "/react-gh-pages/static/css/main.6aa1bd24.css.map",
+    "main.b4caaaf8.js.map": "/react-gh-pages/static/js/main.b4caaaf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aa1bd24.css",
+    "static/js/main.b4caaaf8.js"
+  ]
+}
