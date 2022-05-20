@@ -11,9 +11,10 @@ As a junior developer I wanted to try my hand at building a single-page applicat
 
 ## What is unique about this React-App?
 
-This application leverages readily available resources such as [React-Bootstrap](https://react-bootstrap.github.io/), [Formik](https://formik.org/), and [ReactRouter](https://reactrouter.com/)
+This application leverages readily available resources such as [React-Bootstrap](https://react-bootstrap.github.io/), [Formik](https://formik.org/), and [ReactRouter](https://reactrouter.com/). Combined, these resources produce a single page application that allows the viewer to navigate to six different examples of my work, contact me using the Formik form, and download a PDF version of my resume. 
 
-
+## Image
+![Example Image(https://github.com/gemsjohn/tawny-port/blob/main/src/assets/example.png)]
 
 
 
