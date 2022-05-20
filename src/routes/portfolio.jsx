@@ -6,7 +6,6 @@ import ecom_shop from '../assets/shop-lyft.png';
 import splotch from '../assets/splotch.png';
 import wol from '../assets/wol.png';
 import employee from '../assets/employee.png';
-import placeholder from '../assets/placeholder.jpg';
 import { Footer } from '../footer';
 export default function Portfolio() {
     return (

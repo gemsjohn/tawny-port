@@ -6,6 +6,7 @@ import name from './assets/name_logo.png';
 
 export const Header = () => {
     return (
+        <div className="header">
             <Navbar bg="dark" variant="dark" className="App-header">
                 <Navbar.Brand href="#home">
                     <img
@@ -25,5 +26,6 @@ export const Header = () => {
                     </Nav>
                 </Col>
             </Navbar>
+        </div>
     )
 }
