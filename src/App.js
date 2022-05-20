@@ -21,7 +21,7 @@ function App() {
               that ensures regulatory compliance. My team falls within the Software Development Life Cycle (SDLC), right behind our internal Development Team.
             </h5>
             <h5>
-              On a personal level I enjoy restoring old Rally Cars or anything rare. Love spending time with my Wife, Dogs, and Cats. I'll try anything at least once and therefore
+              On a personal level I enjoy restoring old Rally Cars or anything rare. Love spending time with my Wife, Dogs, and Cat. I'll try anything at least once and therefore
               enjoy checking out new restaurants.  
             </h5>
           </div>

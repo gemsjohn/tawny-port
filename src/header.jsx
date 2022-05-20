@@ -1,6 +1,4 @@
-import Navbar from 'react-bootstrap/Navbar';
-import { Col, Row } from 'react-bootstrap';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Nav, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import name from './assets/name_logo.png';
 
