@@ -26,7 +26,7 @@ export default function Resume() {
       <div className="App">
         <Container className="full-space">
           <div>
-            <h3 className="extra-spacing">Download <DownloadLink src={resume}>resume</DownloadLink></h3>
+            <h3 className="extra-spacing">Download <DownloadLink src={resume}>Resume</DownloadLink></h3>
           </div>
           <Row>
             <Col>
