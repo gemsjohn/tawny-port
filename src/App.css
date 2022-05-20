@@ -44,8 +44,10 @@
   opacity: 100%;
 }
 
-.active {
-  color: red;
+.backdrop {
+  background-color: rgba(146, 237, 243, 0.404);
+  min-height: 100vh;
+
 }
 
 @keyframes App-logo-spin {
@@ -59,10 +61,6 @@
 .card-content {
   position: absolute; 
   bottom: 0;
-}
-
-.full-space {
-  height: 100%;
 }
 
 .Row-space {
@@ -106,5 +104,8 @@
 }
 
 .footer-center {
-  padding: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }

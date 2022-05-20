@@ -14,7 +14,7 @@ class DownloadLink extends React.Component {
 
 export default function Resume() {
     return (
-      <>
+      <div className="backdrop">
       <Header />
       <div className="App">
         <Container className="full-space">
@@ -54,6 +54,6 @@ export default function Resume() {
         </Container>
       </div>
       <Footer />
-      </>
+      </div>
     );
   }

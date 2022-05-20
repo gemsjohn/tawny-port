@@ -23,7 +23,7 @@ export default function Contact() {
     message: yup.string().required('Message Required')
   });
     return (
-      <>
+      <div className="backdrop">
       <Header />
       <Container>
       <div className="App">
@@ -92,6 +92,6 @@ export default function Contact() {
       </div>
       </Container>
       <Footer />
-      </>
+      </div>
     );
   }

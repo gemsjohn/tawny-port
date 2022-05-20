@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       
-      <div>
+      <div className="backdrop">
         <Header />
-        <Container className="full-space">
+        <Container>
           <h3 className="extra-spacing">About Me</h3>
           <div>
             <img src={photo} className="profile" alt="" />

@@ -9,7 +9,7 @@ import employee from '../assets/employee.png';
 import { Footer } from '../footer';
 export default function Portfolio() {
     return (
-      <>
+      <div className="backdrop">
       <Header />
       <Container>
         <div className="App">
@@ -115,6 +115,6 @@ export default function Portfolio() {
       </Container>
       <div className="supplemental-space"></div>
       <Footer />
-      </>
+      </div>
     );
   }
