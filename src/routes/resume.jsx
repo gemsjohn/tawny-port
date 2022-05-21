@@ -85,7 +85,7 @@ export default function Resume() {
               </Card>
             </Col>
           </Row>
-          <div className="extra-spacing"></div>
+          <div className="spacing-gap"></div>
         </Container>
       </div>
       <Footer />
