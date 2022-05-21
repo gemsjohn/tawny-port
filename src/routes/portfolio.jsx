@@ -17,7 +17,7 @@ const styles = {
   },
   cardImage: {
     objectFit: 'cover',
-    borderRadius: 8,
+    borderRadius: 24,
     width: '300px',
     height: '300px',
     padding: '10px',
