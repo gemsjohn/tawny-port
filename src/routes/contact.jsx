@@ -53,7 +53,7 @@ export default function Contact() {
                     }) => (
                       <Form noValidate validated={validated} onSubmit={handleSubmit}>
                           <Form.Group className="mb-3" as={Col} md="4" controlId="validationFormik01">
-                            <Form.Label>Name</Form.Label>
+                            <Form.Label className="form-style">Name</Form.Label>
                             <Form.Control
                               type="text"
                               name="name"
@@ -65,7 +65,7 @@ export default function Contact() {
                             />
                           </Form.Group>
                           <Form.Group className="mb-3" as={Col} md="4" controlId="validationFormik02">
-                            <Form.Label>Email</Form.Label>
+                            <Form.Label className="form-style">Email</Form.Label>
                             <Form.Control
                               type="email"
                               name="email"
@@ -79,7 +79,7 @@ export default function Contact() {
                             </Form.Control.Feedback>
                           </Form.Group>
                           <Form.Group className="mb-3" as={Col} md="4" controlId="validationFormik03">
-                            <Form.Label>Message</Form.Label>
+                            <Form.Label className="form-style">Message</Form.Label>
                             <Form.Control
                               type="text"
                               name="message"

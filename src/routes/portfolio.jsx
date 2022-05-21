@@ -13,7 +13,7 @@ const styles = {
   card: {
     backgroundColor: '#b7e0f2a9',
     borderRadius: 25,
-    padding: '1rem'
+    padding: '0.25rem'
   },
   cardImage: {
     objectFit: 'cover',

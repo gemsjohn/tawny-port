@@ -132,6 +132,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
+  font-family: 'Alata', sans-serif;
 }
 .card-button {
   background: rgb(40,44,52);
@@ -141,6 +142,10 @@
 
 .card-button:hover {
   opacity: 100%;
+}
+
+.form-style {
+  font-family: 'Alata', sans-serif;
 }
 
 .footer {
