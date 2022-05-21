@@ -13,13 +13,16 @@ const styles = {
   card: {
     backgroundColor: '#b7e0f2a9',
     borderRadius: 25,
-    padding: '0.25rem'
+    padding: '0.25rem',
+    height: '100%',
+    width: 'auto',
+    textAlign: 'center'
   },
   cardImage: {
     objectFit: 'cover',
     borderRadius: 24,
-    width: '300px',
-    height: '300px',
+    width: '60%',
+    height: '20vh',
     padding: '10px',
     margin: 'auto',
     opacity: '80%'
@@ -41,7 +44,7 @@ export default function Portfolio() {
           {/* ROW #1 */}
           <Row className="Row-space">
             <Col>
-              <Card class="card h-100" style={styles.card}>
+              <Card class="card h-100" style={styles.card} >
                 <Card.Img variant="top" src={bm_dept} className="photo" style={styles.cardImage} />
                 <Card.Body>
                     <Card.Title>Business Manager</Card.Title>
