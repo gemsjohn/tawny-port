@@ -100,6 +100,12 @@
   margin: 20px 0px 20px 0px;
 }
 
+.resume-org {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
 .card-button {
   background: rgb(40,44,52);
   background: linear-gradient(180deg, rgba(40,44,52,1) 0%, rgba(0,0,0,1) 90%, rgba(2,0,36,1) 100%);
