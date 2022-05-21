@@ -44,6 +44,13 @@
   opacity: 100%;
 }
 
+.App-link-active {
+  color: tomato;
+  opacity: 90%;
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+}
+
 .backdrop {
   background-color: rgba(146, 237, 243, 0.404);
   min-height: 100vh;
@@ -130,4 +137,22 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+}
+
+.nav {
+  margin-bottom: 25px;
+}
+
+.nav a {
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-right: 10px;
+}
+
+.nav a.active {
+  color: #fff;
+  background: #7600dc;
+}
+.nav a.inactive {
+  font-style: italic;
 }
