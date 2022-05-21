@@ -16,12 +16,13 @@ const styles = {
     padding: '0.25rem',
     height: '100%',
     width: 'auto',
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: '0 10% 0 10%'
   },
   cardImage: {
     objectFit: 'cover',
     borderRadius: 24,
-    width: '60%',
+    width: '20vh',
     height: '20vh',
     padding: '10px',
     margin: 'auto',
