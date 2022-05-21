@@ -41,7 +41,6 @@ export default function Portfolio() {
       <Header />
       <Container>
         <div className="App">
-          <h3 className="extra-spacing">Portfolio</h3>
           {/* ROW #1 */}
           <Row className="Row-space">
             <Col>
