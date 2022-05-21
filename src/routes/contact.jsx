@@ -92,7 +92,7 @@ export default function Contact() {
                               {errors.message}
                             </Form.Control.Feedback>
                           </Form.Group>
-                          <Button className="card-button" type="submit" href={"mailto:" + values.email}>
+                          <Button className="contact-card-button" type="submit" href={"mailto:" + values.email}>
                             Submit
                           </Button>
                       </Form>

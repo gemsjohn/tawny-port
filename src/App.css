@@ -78,7 +78,7 @@
 }
 
 .Row-space {
-  padding: 5px 0px 5px 0px;
+  padding: 4% 0px 4% 0px;
 }
 
 .photo {
@@ -95,7 +95,7 @@
 }
 
 .profile {
-  height: 70vh;
+  height: 70%;
   width: auto;
   border-radius: 25px;
   position: fixed;
@@ -103,22 +103,16 @@
   margin: 0 10vw 0 10vw;
 }
 
-.profile-text {
-  font-family: 'Alata', sans-serif;
-  color: rgb(2,0,36);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+@media only screen and (max-width: 1230px) {
+  .profile {
+    height: auto;
+    width: 80%;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 8%; 
+    left: 0;
+  }
 }
-.center {
-  font-family: 'Alata', sans-serif;
-  color: rgb(2,0,36);
-  position: absolute;
-  bottom: 20vh;
-  margin: 0 10vw 0 10vw;
-}
-
 
 .pdf-icon {
   height: 100px;
@@ -145,9 +139,21 @@
   background: rgb(40,44,52);
   background: linear-gradient(180deg, rgba(40,44,52,1) 0%, rgba(0,0,0,1) 90%, rgba(2,0,36,1) 100%);
   opacity: 80%;
+  width: 80%;
+  height: auto;
 }
 
 .card-button:hover {
+  opacity: 100%;
+}
+
+.contact-card-button {
+  background: rgb(40,44,52);
+  background: linear-gradient(180deg, rgba(40,44,52,1) 0%, rgba(0,0,0,1) 90%, rgba(2,0,36,1) 100%);
+  opacity: 80%;
+}
+
+.contact-card-button:hover {
   opacity: 100%;
 }
 
@@ -169,22 +175,4 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-}
-
-.nav {
-  margin-bottom: 25px;
-}
-
-.nav a {
-  border-radius: 4px;
-  padding: 6px 10px;
-  margin-right: 10px;
-}
-
-.nav a.active {
-  color: #fff;
-  background: #7600dc;
-}
-.nav a.inactive {
-  font-style: italic;
 }

@@ -22,8 +22,8 @@ const styles = {
   cardImage: {
     objectFit: 'cover',
     borderRadius: 24,
-    width: '20vh',
-    height: '20vh',
+    width: '80%',
+    height: '80%',
     padding: '10px',
     margin: 'auto',
     opacity: '80%'
@@ -41,9 +41,8 @@ export default function Portfolio() {
       <Header />
       <Container>
         <div className="App">
-          {/* ROW #1 */}
-          <Row className="Row-space">
-            <Col>
+          <Row>
+            <Col sm={12} md={6} lg={4} className="extra-spacing">
               <Card class="card h-100" style={styles.card} >
                 <Card.Img variant="top" src={bm_dept} className="photo" style={styles.cardImage} />
                 <Card.Body>
@@ -56,7 +55,7 @@ export default function Portfolio() {
                     >
                       Description
                     </Button>
-                    <Row className="Row-space">
+                    <Row className="Row-space Row-style">
                       <Collapse in={open_0}>
                         <div id="example-collapse-text">
                             As a business owner I wanted to be able to view and manage the departments, 
@@ -70,7 +69,7 @@ export default function Portfolio() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col sm={12} md={6} lg={4} className="extra-spacing">
             <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={sn_disco} style={styles.cardImage} />
                 <Card.Body>
@@ -98,7 +97,7 @@ export default function Portfolio() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col sm={12} md={6} lg={4} className="extra-spacing">
             <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={ecom_shop} style={styles.cardImage} />
                 <Card.Body>
@@ -125,10 +124,7 @@ export default function Portfolio() {
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
-          {/* ROW #2 */}
-          <Row className="Row-space">
-            <Col>
+            <Col sm={12} md={6} lg={4} className="extra-spacing">
               <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={splotch} style={styles.cardImage} />
                 <Card.Body>
@@ -153,7 +149,7 @@ export default function Portfolio() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col sm={12} md={6} lg={4} className="extra-spacing">
             <Card class="card h-100" style={styles.card}>
                 <Card.Img variant="top" src={wol} style={styles.cardImage} />
                 <Card.Body>
@@ -180,7 +176,7 @@ export default function Portfolio() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col sm={12} md={6} lg={4} className="extra-spacing">
             <Card class="card h-100" style={styles.card} >
                 <Card.Img variant="top" src={employee} style={styles.cardImage} />
                 <Card.Body>
